@@ -1,4 +1,162 @@
-body{
-  background:url("pink.jpg") no-repeat center center fixed;
+html {
+  box-sizing: border-box;
+}
+#Nav{
+
+  background-color: #092140;
+   height: 100%;
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 100;
+   padding-top: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#headtext{
+  /*font-family: 'Josefin Slab', serif;
+  color: #E6E7E8*/
+  padding-bottom: 300px
+}
+#h1{
+font-family: 'Archivo Narrow', sans-serif;
+  }
+  #h2{
+font-family: 'Archivo Narrow', sans-serif;
+
+  }
+#h3{
+font-family: 'Archivo Narrow', sans-serif;
+  }
+ #h4{
+  font-family: 'Archivo Narrow', sans-serif;
+  padding-top: 100px
+}
+p{
+  font-family: 'Acme', sans-serif;
+  color: #F2C777;
+}
+
+
+#D1{
+background: url(tree.jpg) center;
   background-size: cover;
+  padding-top: 100px;
+  position: relative;
+  text-align: center;
+
+}
+
+#D2{
+  background: #F2C777;
+  padding-top: 20px;
+  padding-bottom: 200px;
+}
+#D3{
+  background: #024959;
+  padding-bottom: 200px;
+  padding-top: 50px;
+
+}
+#D4{
+background: #E6E7E8;
+padding-bottom: 200px
+}
+
+a{
+  font-family: 'Fjalla One', sans-serif;
+  color: #BF2A2A
+}
+a:hover{
+  transition: all 0.3s cubic-bezier(0.000, 0.000, 0.230, 1);
+    background-position: 0%;
+    color:  #BF2A2A;
+}
+/*heading style*/
+@keyframes filling {
+  from{
+    background-position: center 25%;
+  }
+  to {
+    background-position: center 50%;
+  }
+}
+
+.container-text {
+  background-image:  url("textbg.png");
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color:  #FFFFFF;
+  padding-bottom:200px;
+  font-size: 170px;
+font-family: 'Lilita One', cursive;
+  animation: filling 3s ease forwards;
+
+}
+/*form style*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html {
+    background: #f8f8f8;
+}
+
+
+#subscribe {
+    width: 350px;
+    margin: 70px auto 0;
+}
+
+#subscribe input[type="text"], #subscribe input[type="submit"] {
+    font-family: Open Sans;
+    font-size: 14px;
+    width: 350px;
+    padding: 15px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: none;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#subscribe input[type="text"] {
+    background: white;
+    margin: 0 0 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#subscribe input[type="text"]:focus {
+    outline: none;
+}
+
+#subscribe input[type="submit"] {
+    background: #96d492;
+    color: white;
+    cursor: pointer;
+}
+
+#subscribe input[type="submit"]:hover {
+    background: #A4DFA1;
+}
+
+#subscribe input[type="submit"]:active {
+    background: #8CC988;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-transform: translate(300px, 0);
+    -moz-transform: translate(300px, 0);
+    -ms-transform: translate(300px, 0);
+    -o-transform: translate(300px, 0);
+    transform: translate(300px, 0);
+    opacity: 0;
+}
+ #c3 {
+  background-color: #092140;
 }
