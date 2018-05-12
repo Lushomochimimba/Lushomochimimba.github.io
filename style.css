@@ -157,6 +157,12 @@ html {
     transform: translate(300px, 0);
     opacity: 0;
 }
- #c3 {
+ #c1 {
+  background-color: #092140;
+}
+#c2 {
+  background-color: #092140;
+}
+#c3 {
   background-color: #092140;
 }
