@@ -1,5 +1,5 @@
 var typed = new Typed('.element', {
-strings: ["I am a Full stack web developer","React js developer"," I also do React Native js development" ,"hope you enjoy your stay on my site"],
+strings: ["Hi my name is lushomo Chimimba","this web page is under construction"," the info here dates 2018" ,"new updates coming soon"],
 typeSpeed: 60,
 backSpeed: 30,
 backDelay: 2000,
